@@ -150,6 +150,7 @@ dependencies = [
 [[package]]
 name = "osmpbfreader"
 version = "0.14.0"
+source = "git+https://github.com/weech/osmpbfreader-rs.git#fa1a7272526d5106aeeb948b21cdc73c480d8a21"
 dependencies = [
  "byteorder",
  "flat_map",
