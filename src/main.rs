@@ -197,7 +197,7 @@ where
                     &node
                         .visible()
                         .map(|x| x.to_string())
-                        .unwrap_or("".to_string()),
+                        .unwrap_or("true".to_string()),
                 )
                 .attr(
                     "version",
@@ -249,7 +249,7 @@ where
                     &node
                         .visible()
                         .map(|x| x.to_string())
-                        .unwrap_or("".to_string()),
+                        .unwrap_or("true".to_string()),
                 )
                 .attr(
                     "version",
@@ -301,7 +301,7 @@ where
                     &node
                         .visible()
                         .map(|x| x.to_string())
-                        .unwrap_or("".to_string()),
+                        .unwrap_or("true".to_string()),
                 )
                 .attr(
                     "version",
