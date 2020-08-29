@@ -64,6 +64,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             && element.tags().contains("service", "driveway")
             && element.tags().contains("access", "private")
             && element.user().is_some()
+            && element.version().unwrap_or(0) == 1
             && amazon.contains(
                 element
                     .user()
